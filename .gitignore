@@ -1,0 +1,11 @@
+# Ignore everything by default
+*
+
+# Keep gitignore itself
+!.gitignore
+
+# Allow only requested upload scope
+!project/
+!project/**
+!pyproject.toml
+!uv.lock
